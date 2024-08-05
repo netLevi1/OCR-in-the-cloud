@@ -16,7 +16,7 @@
 
 First, you need to create the jar file with dependencies.(the manager and worker jar files are already uploaded to S3)
 It can be done easly using intellij. open the project in intellij, and click on the 'Maven' bar to the left. Then choose 'lifecycle' and click on: 'package'.
-It will create jar file with dependencies which yuo neet to run using the following command:
+It will create jar file with dependencies which you need to run using the following command:
 *Java -jar jarFileName.jar inputfile.txt outputfile.txt n terminate*
 Where 'n' is the  number of URLs per Worker and 'terminate' is optional.
 Terminate is either "terminate" or every other string – where terminate means finish all tasks and terminate the project and every other string means do the work and wait for other Local Applications.  
